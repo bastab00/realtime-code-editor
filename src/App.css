@@ -1,0 +1,122 @@
+/* Background */
+.homePageWrapper {
+    display: flex;
+    flex-direction: column; /* Stack card and footer */
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    height: 100vh;
+    background: radial-gradient(circle at center, rgba(22, 22, 33, 0.8), rgba(9, 13, 31, 1) 60%);
+    overflow: hidden;
+    transition: background 0.1s ease-out;
+    position: relative;
+}
+
+.formWrapper {
+    background: rgba(15, 15, 25, 0.6); /* Dark semi-transparent */
+    padding: 30px;
+    border-radius: 12px;
+    height: 320px;
+    width: 420px;
+    max-width: 90%;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4); /* Deep shadow for depth */
+    backdrop-filter: blur(12px); /* Frosted glass effect */
+    border: 1px solid rgba(255, 255, 255, 0.1); /* Subtle border */
+    transition: all 0.3s ease-in-out;
+}
+
+.homePageLogo {
+    width: 200px; /* Increase width */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Prevent overflow */
+    filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.5)); /* Neon glow */
+}
+
+h4.mainLabel {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    color: #c5d0ff;
+}
+
+.inputGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers the elements vertically */
+    align-items: center; /* Centers the elements horizontally */
+    gap: 10px; /* Adds equal spacing between inputs */
+    width: 95%;
+    padding: 0 10px; /* Ensures equal spacing on both sides */
+}
+
+
+.inputBox {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, 0.05); /* Transparent input */
+    font-size: 16px;
+    color: #c5d0ff;
+    backdrop-filter: blur(5px);
+    transition: all 0.3s ease-in-out;
+}
+
+.inputBox::placeholder {
+    color: rgba(200, 210, 255, 0.5);
+}
+
+.btn {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(90deg, #2dd4ff, #9379ff); /* Blue to Purple */
+    color: white;
+    border: none;
+    box-shadow: 0 0 10px rgba(45, 212, 255, 0.5); /* Glow effect */
+}
+
+.btn:hover {
+    box-shadow: 0 0 15px rgba(45, 212, 255, 0.8);
+    transform: scale(1.05);
+}
+
+.createNewBtn {
+    color: #2dd4ff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.createNewBtn:hover {
+    color: #9379ff;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: rgba(200, 210, 255, 0.6);
+}
+
+footer a {
+    color: #2dd4ff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #9379ff;
+}
+
+
+
+/* ========================= */
+/* Futuristic Dark-Themed UI */
+/* ========================= */
+
+
+
+

@@ -1,0 +1,171 @@
+/* ========================== */
+/* Futuristic Dark-Themed UI  */
+/* ========================== */
+
+/* Background */
+.editorPageWrapper {
+    display: flex !important;
+    height: 100vh !important;
+    width: 100vw !important;
+    background: radial-gradient(circle at center, rgba(12, 12, 22, 0.9), rgba(5, 5, 15, 1)) !important;
+    color: #fff !important;
+}
+
+/* Sidebar - Fixed on the left */
+.sidebar {
+    width: 280px !important; /* Fixed width */
+    height: 100vh !important; /* Full height */
+    background: rgba(20, 20, 30, 0.7) !important;
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 20px !important;
+    border-right: 2px solid rgba(255, 255, 255, 0.1) !important;
+    box-shadow: 4px 0 15px rgba(0, 255, 255, 0.1) !important;
+    backdrop-filter: blur(10px) !important;
+}
+
+/* Logo */
+.logo img {
+    width: 200px;
+    filter: drop-shadow(0 0 10px rgba(0, 255, 255, 0.6));
+}
+
+/* Connected Users */
+.connectedUsers h3 {
+    text-align: center;
+    font-size: 18px;
+    color: #c5d0ff;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+
+/* User List */
+.userList {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* User Item */
+.userItem {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Buttons */
+.copyBtn, .leaveBtn {
+    width: 50%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(90deg, #2dd4ff, #9379ff);
+    color: white;
+    border: none;
+    box-shadow: 0 0 10px rgba(45, 212, 255, 0.5);
+}
+
+.copyBtn:hover, .leaveBtn:hover {
+    box-shadow: 0 0 15px rgba(45, 212, 255, 0.8);
+    transform: scale(1.05);
+}
+
+/* Editor Section */
+.editorWrapper {
+    flex-grow: 1 !important; /* Forces it to take all remaining space */
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 20px !important;
+}
+
+/* CodeMirror Customization */
+.CodeMirror {
+    height: 100% !important;
+    width: 100% !important;
+    font-size: 16px !important;
+    font-family: 'Fira Code', monospace !important;
+    background-color: #1e1e2e !important;
+    color: #cdd6f4 !important;
+    border-radius: 10px !important;
+    padding: 10px !important;
+}
+
+/* Fix cursor & selection */
+.CodeMirror-cursor {
+    border-left: 2px solid #2dd4ff !important;
+}
+
+.CodeMirror-selected {
+    background: rgba(45, 212, 255, 0.2) !important;
+}
+
+
+.editorContainer {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #1e1e1e !important;
+    border-radius: 8px !important;
+}
+
+
+.languageSelector {
+    margin-top: 20px; /* Space above the dropdown */
+    text-align: left;
+    font-size: 14px;
+    color: #c5d0ff;
+}
+
+.languageSelector select {
+    width: 50%;
+    padding: 8px;
+    background: rgba(255, 255, 255, 0.08);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.languageSelector select option {
+    background: rgba(20, 20, 30, 0.9); /* Dark background */
+    color: white;
+}
+
+
+.languageSelector select:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(45, 212, 255, 0.5);
+}
+
+
+
+.runBtn {
+    width: 50%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    background: linear-gradient(90deg, #2dd4ff, #9379ff);
+    color: white;
+    border: none;
+    box-shadow: 0 0 10px rgba(45, 212, 255, 0.5);
+}
+
+.runBtn:hover {
+    box-shadow: 0 0 15px rgba(45, 212, 255, 0.8);
+    transform: scale(1.05);
+}
