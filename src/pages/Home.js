@@ -148,8 +148,8 @@ const Home = () => {
             <footer>
                 <h4>
                     Built with ☮️ by &nbsp;
-                    <a href="https://github.com/bastab00" target="_blank" rel="noopener noreferrer">
-                        Bastab Gogoi
+                    <a href="" target="_blank" rel="noopener noreferrer">
+                        Bastab, Lakhya, Premila
                     </a>
                 </h4>
             </footer>
